@@ -176,7 +176,7 @@ function Field({
   helpText?: string;
   state?: "default" | "error" | "error-soft";
   className?: string;
-  inputRef?: React.RefObject<HTMLInputElement>;
+  inputRef?: React.RefObject<HTMLInputElement | null>;
 }) {
   const base =
     "w-full rounded-md bg-transparent text-[15px] text-white placeholder:text-neutral-400 outline-none ring-1 ring-inset px-3 py-2";
