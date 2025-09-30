@@ -49,7 +49,7 @@ export default function Header() {
             <p className="notranslate text-t4 max-lg:hidden">Hub</p>
         </a>
         <div className="group relative">
-            <button name="accordion menu button" aria-label="accordion menu button" title="accordion menu button" tabIndex="-1" className="cursor-pointer text-center items-center transition disabled:cursor-not-allowed h-8 px-4 text-t4 border outline-white active:opacity-75 disabled:opacity-30 disabled:outline-0 flex w-full whitespace-nowrap shrink-0 justify-between border-b-2 border-transparent py-3 text-base font-normal outline-0 hover:bg-transparent hover:outline-0 focus:bg-transparent focus:outline-0 active:bg-transparent active:outline-0 md:px-2 md:py-1 md:text-sm md:font-medium lg:px-4 bg-transparent border-none !h-9 !px-2 !py-[6px]">
+            <button name="accordion menu button" aria-label="accordion menu button" title="accordion menu button" tabIndex={-1} className="cursor-pointer text-center items-center transition disabled:cursor-not-allowed h-8 px-4 text-t4 border outline-white active:opacity-75 disabled:opacity-30 disabled:outline-0 flex w-full whitespace-nowrap shrink-0 justify-between border-b-2 border-transparent py-3 text-base font-normal outline-0 hover:bg-transparent hover:outline-0 focus:bg-transparent focus:outline-0 active:bg-transparent active:outline-0 md:px-2 md:py-1 md:text-sm md:font-medium lg:px-4 bg-transparent border-none !h-9 !px-2 !py-[6px]">
               <span className="group-hover:text-primary-green-500">
                   <div className="flex items-center gap-2 text-t4 transition-colors">
                     <div className="size-8 px-[3.25px] py-[4.25px] md:size-6">
